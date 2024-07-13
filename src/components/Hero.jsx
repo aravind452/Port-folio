@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/aravind.png";
 import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
 
