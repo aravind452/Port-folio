@@ -41,6 +41,12 @@ const Technologies = () => {
           </div>
           <p className="text-center  mt-1">Python</p>
         </div>
+        <div className="flex flex-col p-4">
+          <div className="rounded-2xl border-4 border-neutral-900">
+            <FaPython className="text-6xl  text-yellow-400 px-2" />
+          </div>
+          <p className="text-center  mt-1">Python</p>
+        </div>
       </div>
     </div>
   );
