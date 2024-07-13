@@ -49,9 +49,9 @@ const Projects = () => {
               <a
                 href={project.link}
                 target="_blank"
-                className="font-bold ml-2 text-sm text-red-900 rounded py-1 px-2 bg-neutral-900"
+                className="font-bold ml-2 text-sm text-yellow-300 rounded py-1 px-2 bg-neutral-900"
               >
-                Project Link
+                Link
               </a>
             </motion.div>
           </div>

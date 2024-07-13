@@ -4,6 +4,8 @@ import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
+import { TbBrandMysql } from "react-icons/tb";
+import { FaGitSquare } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -22,12 +24,14 @@ const iconVariants = (duration) => ({
 const Technologies = () => {
   return (
     <div className="border-b border-neutral-900 pb-24">
-      <motion.h1 
-      whileInView={{opacity:1,y:0}}
-      initial={{opacity:0,y:-100}}
-      transition={{duration:1.5,delay:0.5}}
-      
-      className="my-16 text-center text-4xl">Technologies</motion.h1>
+      <motion.h1
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -100 }}
+        transition={{ duration: 1.5, delay: 0.5 }}
+        className="my-16 text-center text-4xl"
+      >
+        Technologies
+      </motion.h1>
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
@@ -97,9 +101,20 @@ const Technologies = () => {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-900"
           >
-            <FaPython className="text-6xl  text-yellow-400 px-2" />
+            <TbBrandMysql className="text-6xl  text-blue-400 px-2" />
           </motion.div>
-          <p className="text-center  mt-1">Python</p>
+          <p className="text-center  mt-1">MySQL</p>
+        </div>
+        <div className="flex flex-col p-4">
+          <motion.div
+            variants={iconVariants(2)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-900"
+          >
+            <FaGitSquare className="text-6xl  text-red-900 px-2" />
+          </motion.div>
+          <p className="text-center  mt-1">Git</p>
         </div>
       </motion.div>
     </div>

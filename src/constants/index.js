@@ -38,7 +38,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "Created a responsive weather website with an intuitive design, featuring accurate current conditions and forecasts via a reliable API, and location-based search for global weather updates, enhancing user experience.",
-    technologies: ["HTML", "CSS", "ReactJS", "API"],
+    technologies: ["CSS", "ReactJS", "API"],
     link: "https://rain-radar.netlify.app/",
   },
   {
@@ -46,7 +46,7 @@ export const PROJECTS = [
     image: project2,
     description:
       "Designed and implemented secure user authentication (Signup and SignIn), developed menu and cart management, and built a responsive, user-friendly interface optimized for desktop and mobile devices.",
-    technologies: ["HTML", "CSS", "ReactJS", "ExpressJS", "MongoDB"],
+    technologies: ["ReactJS", "ExpressJS", "MongoDB"],
     link: "https://github.com/aravind452/FoodZapp",
   },
   {
@@ -54,7 +54,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "GitLocus is a website designed to help users discover repositories for popular programming languages. It offers an easy-to-navigate interface and detailed information to streamline finding and exploring relevant repositories.",
-    technologies: ["HTML", "CSS", "ReactJS", "ExpressJS", "MongoDB"],
+    technologies: ["ReactJS", "ExpressJS", "MongoDB"],
     link: "https://gitlocus.onrender.com/",
   },
   {
