@@ -1,6 +1,16 @@
 import React from "react";
 import profilePic from "../assets/kevinRushProfile.png";
 import { HERO_CONTENT } from "../constants";
+import { motion } from "framer-motion";
+
+const delayfunction = (delay) => ({
+  hidden: { x: -100, opacity: 0 },
+  visible: {
+    x: 0,
+    opacity: 1,
+    transition: { duration: 0.5, delay: delay },
+  },
+});
 
 const Hero = () => {
   return (
@@ -8,20 +18,41 @@ const Hero = () => {
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
-            <h1 className="pb-12 text-6xl font-thin tracking-tight lg:mt-6 lg:text-8xl">
+            <motion.h1
+              variants={delayfunction(0)}
+              initial="hidden"
+              animate="visible"
+              className="pb-12 text-6xl font-thin tracking-tight lg:mt-6 lg:text-8xl"
+            >
               Aravind J
-            </h1>
-            <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl tracking-tight text-transparent sm:text-4xl">
+            </motion.h1>
+            <motion.span
+              variants={delayfunction(0.5)}
+              initial="hidden"
+              animate="visible"
+              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl tracking-tight text-transparent sm:text-4xl"
+            >
               Full Stack Developer
-            </span>
-            <p className="my-2 max-w-xl py-6 font-light tracking-tighter">
+            </motion.span>
+            <motion.p
+              variants={delayfunction(1)}
+              initial="hidden"
+              animate="visible"
+              className="my-2 max-w-xl py-6 font-light tracking-tighter"
+            >
               {HERO_CONTENT}
-            </p>
+            </motion.p>
           </div>
         </div>
-        <div className="w-full border border-blue-400 lg:w-1/2 lg:p-8">
+        <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <img src={profilePic} alt="profileimage" />
+            <motion.img
+              initial={{ x: 100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 1.5 }}
+              src={profilePic}
+              alt="profileimage"
+            />
           </div>
         </div>
       </div>
