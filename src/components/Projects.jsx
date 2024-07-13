@@ -46,6 +46,13 @@ const Projects = () => {
                   {tech}
                 </span>
               ))}
+              <a
+                href={project.link}
+                target="_blank"
+                className="font-bold ml-2 text-sm text-red-900 rounded py-1 px-2 bg-neutral-900"
+              >
+                Project Link
+              </a>
             </motion.div>
           </div>
         ))}
