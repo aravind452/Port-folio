@@ -28,7 +28,7 @@ export const EXPERIENCES = [
       Regularly analysed and maintained web application components, identifying areas of improvements and implementing fixes.,
       Contributed innovative ideas and feedback during team meetings, leading to improved design and development processes.,
       Utilized tools such as ReactJS, HTML, and CSS to deliver high-quality software.`,
-    technologies: ["Javascript", "React.js", "HTML", "CSS"],
+    technologies: ["Javascript", "ReactJS", "HTML", "CSS"],
   },
 ];
 
@@ -37,7 +37,7 @@ export const PROJECTS = [
     title: "Weather Application",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "Created a responsive weather website with an intuitive design, featuring accurate current conditions and forecasts via a reliable API, and location-based search for global weather updates, enhancing user experience.",
     technologies: ["HTML", "CSS", "ReactJS", "API"],
     link: "https://rain-radar.netlify.app/",
   },
@@ -45,7 +45,7 @@ export const PROJECTS = [
     title: "FoodZapp Application",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      "Designed and implemented secure user authentication (Signup and SignIn), developed menu and cart management, and built a responsive, user-friendly interface optimized for desktop and mobile devices.",
     technologies: ["HTML", "CSS", "ReactJS", "ExpressJS", "MongoDB"],
     link: "https://github.com/aravind452/FoodZapp",
   },
@@ -53,7 +53,7 @@ export const PROJECTS = [
     title: "GitLocus",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "GitLocus is a website designed to help users discover repositories for popular programming languages. It offers an easy-to-navigate interface and detailed information to streamline finding and exploring relevant repositories.",
     technologies: ["HTML", "CSS", "ReactJS", "ExpressJS", "MongoDB"],
     link: "https://gitlocus.onrender.com/",
   },
@@ -61,16 +61,17 @@ export const PROJECTS = [
     title: "Employee Management System",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["JAVA"],
+      "The Employee Management System, implemented using Java and MySQL, allows users to add, view, update, and delete employees. It features employee filtering, search functionality, and average salary calculation, utilizing the Java Development Kit (JDK) and MySQL Database.",
+    technologies: ["JAVA", "MySQL"],
     link: "https://github.com/aravind452/Employee-Management-System-Console-Based",
   },
   {
     title: "Pharmacy Management System",
     image: project5,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+      "The Pharmacy Management System offers robust user authentication for login and signup, facilitating secure access. It empowers users to seamlessly add medicines to inventory, make purchases, and manage sales, purchases, and stocks. With integrated functionalities, it ensures scalability and reliability to meet the diverse operational needs of pharmacies effectively.",
     technologies: ["HTML", "CSS", "ReactJS"],
+    link: "https://github.com/aravind452/Pharmacy",
   },
 ];
 
