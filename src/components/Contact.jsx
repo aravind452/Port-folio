@@ -24,9 +24,9 @@ const Contact = () => {
         <motion.a
           href="mailto:aravindj2002@outlook.com"
           className="border-b cursor-pointer"
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 100 }}
-          transition={{ duration: 1.5 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -100 }}
+          transition={{ duration: 1.5, delay: 1 }}
         >
           {CONTACT.email}
         </motion.a>
